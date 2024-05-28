@@ -25,6 +25,20 @@ public class User {
         this.image = image;
     }
 
+    public User(String name, String email, String password, int role, int active, String create_at, int gender, String dob, String phone, String image) {
+        this.user_id = user_id;
+        this.name = name;
+        this.email = email;
+        this.password = password;
+        this.role = role;
+        this.active = active;
+        this.create_at = create_at;
+        this.gender = gender;
+        this.dob = dob;
+        this.phone = phone;
+        this.image = image;
+    }
+
     public int getUser_id() {
         return user_id;
     }
