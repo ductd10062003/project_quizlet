@@ -22,7 +22,6 @@ public class User {
         this.gender = gender;
         this.dob = dob;
         this.phone = phone;
-        this.image = image;
     }
 
     public int getUser_id() {
