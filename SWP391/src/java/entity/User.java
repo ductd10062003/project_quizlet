@@ -22,7 +22,6 @@ public class User {
         this.gender = gender;
         this.dob = dob;
         this.phone = phone;
-        this.image = image;
     }
 
     public User(String name, String email, String password, int role, int active, String create_at, int gender, String dob, String phone, String image) {
